@@ -3,6 +3,16 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SharedModule } from './shared/shared.module';
+import {AppRoutingModule} from './app.routing.module';
+import { HomeModule } from './home/home.module';
+import { AboutModule } from './about/about.module';
+import { ThemesAndModelsModule } from './themes-and-models/themes-and-models.module';
+import { GeoNetModule } from './geo-net/geo-net.module';
+import { MedInitiativeModule } from './med-initiative/med-initiative.module';
+import { BestPracticeModule } from './best-practice/best-practice.module';
+import { ResourcesModule } from './resources/resources.module';
+import { SinglePagesModule } from './single-pages/single-pages.module';
 
 
 @NgModule({
@@ -10,7 +20,17 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SharedModule,
+    AppRoutingModule,
+    HomeModule,
+    AboutModule,
+    ThemesAndModelsModule,
+    GeoNetModule,
+    MedInitiativeModule,
+    BestPracticeModule,
+    ResourcesModule,
+    SinglePagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
