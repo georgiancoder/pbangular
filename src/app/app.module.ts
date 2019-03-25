@@ -13,6 +13,7 @@ import { MedInitiativeModule } from './med-initiative/med-initiative.module';
 import { BestPracticeModule } from './best-practice/best-practice.module';
 import { ResourcesModule } from './resources/resources.module';
 import { SinglePagesModule } from './single-pages/single-pages.module';
+import {RouterModule} from '@angular/router';
 
 
 @NgModule({
@@ -23,7 +24,6 @@ import { SinglePagesModule } from './single-pages/single-pages.module';
     BrowserModule,
     SharedModule,
     AppRoutingModule,
-    HomeModule,
     AboutModule,
     ThemesAndModelsModule,
     GeoNetModule,

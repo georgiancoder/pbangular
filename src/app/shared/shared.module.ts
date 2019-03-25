@@ -9,12 +9,24 @@ import { HeaderMenuComponent } from './_blocks/header-menu/header-menu.component
 import { TopFooterComponent } from './_blocks/top-footer/top-footer.component';
 import { MidFooterComponent } from './_blocks/mid-footer/mid-footer.component';
 import { CopyComponent } from './_blocks/copy/copy.component';
+import {ResponsiveMenuComponent} from './_blocks/responsive-menu/responsive-menu.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [HeaderComponent, FooterComponent, TopHeaderComponent, MidHeaderComponent, MainMenuComponent, HeaderMenuComponent, TopFooterComponent, MidFooterComponent, CopyComponent],
+  declarations: [
+    HeaderComponent,
+    FooterComponent,
+    TopHeaderComponent,
+    MidHeaderComponent,
+    MainMenuComponent,
+    HeaderMenuComponent,
+    TopFooterComponent,
+    MidFooterComponent,
+    CopyComponent,
+    ResponsiveMenuComponent
+  ],
   exports: [
     HeaderComponent,
     FooterComponent
