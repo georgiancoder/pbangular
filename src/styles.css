@@ -1,1 +1,187 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  list-style-type: none;
+
+  outline: 0;
+
+  border: 0;
+
+  text-decoration: none;
+
+  font-weight: normal;
+
+}
+
+
+
+
+
+a{
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+
+.BreadCrampLink {    color: #727272;}
+.wrapper {
+
+  width: 1280px;
+
+  margin: auto;
+
+}
+
+
+@font-face {
+  font-family: 'BPG Arial';
+  src: url('assets/fonts/BPGArial.eot');
+  src: url('assets/fonts/BPGArial.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/BPGArial.woff') format('woff'),
+  url('assets/fonts/BPGArial.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BPG Arial Caps 2010';
+  src: url('assets/fonts/BPGArialCaps2010.eot');
+  src: url('assets/fonts/BPGArialCaps2010.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/BPGArialCaps2010.woff') format('woff'),
+  url('assets/fonts/BPGArialCaps2010.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BPG Arial 2010';
+  src: url('assets/fonts/BPGArial2010.eot');
+  src: url('assets/fonts/BPGArial2010.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/BPGArial2010.woff') format('woff'),
+  url('assets/fonts/BPGArial2010.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto _GEO Mt';
+  src: url('assets/fonts/Roboto_GEOMt.eot');
+  src: url('assets/fonts/Roboto_GEOMt.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/Roboto_GEOMt.woff') format('woff'),
+  url('assets/fonts/Roboto_GEOMt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/*added fonts */
+
+@font-face {
+  font-family: 'Roboto _GEO Nus';
+  src: url('assets/fonts/Roboto_GEONus.eot');
+  src: url('assets/fonts/Roboto_GEONus.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/Roboto_GEONus.woff') format('woff'),
+  url('assets/fonts/Roboto_GEONus.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DejaVu Sans Condensed bold oblique';
+  src: url('assets/fonts/DejaVuSansCondensed-BoldOblique.eot');
+  src: url('assets/fonts/DejaVuSansCondensed-BoldOblique.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/DejaVuSansCondensed-BoldOblique.woff') format('woff'),
+  url('assets/fonts/DejaVuSansCondensed-BoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DejaVu Sans Condensed';
+  src: url('assets/fonts/DejaVuSansCondensed.eot');
+  src: url('assets/fonts/DejaVuSansCondensed.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/DejaVuSansCondensed.woff') format('woff'),
+  url('assets/fonts/DejaVuSansCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DejaVu Sans bold oblique';
+  src: url('assets/fonts/DejaVuSans-BoldOblique.eot');
+  src: url('assets/fonts/DejaVuSans-BoldOblique.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/DejaVuSans-BoldOblique.woff') format('woff'),
+  url('assets/fonts/DejaVuSans-BoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DejaVu Sans Condensed oblique';
+  src: url('assets/fonts/DejaVuSansCondensed-Oblique.eot');
+  src: url('assets/fonts/DejaVuSansCondensed-Oblique.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/DejaVuSansCondensed-Oblique.woff') format('woff'),
+  url('assets/fonts/DejaVuSansCondensed-Oblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DejaVu Sans extralight';
+  src: url('assets/fonts/DejaVuSans-ExtraLight.eot');
+  src: url('assets/fonts/DejaVuSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/DejaVuSans-ExtraLight.woff') format('woff'),
+  url('assets/fonts/DejaVuSans-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DejaVu Sans bold';
+  src: url('assets/fonts/DejaVuSans-Bold.eot');
+  src: url('assets/fonts/DejaVuSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/DejaVuSans-Bold.woff') format('woff'),
+  url('assets/fonts/DejaVuSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DejaVu Sans';
+  src: url('assets/fonts/DejaVuSans.eot');
+  src: url('assets/fonts/DejaVuSans.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/DejaVuSans.woff') format('woff'),
+  url('assets/fonts/DejaVuSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DejaVu Sans oblique';
+  src: url('assets/fonts/DejaVuSans-Oblique.eot');
+  src: url('assets/fonts/DejaVuSans-Oblique.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/DejaVuSans-Oblique.woff') format('woff'),
+  url('assets/fonts/DejaVuSans-Oblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DejaVu Sans Condensed bold';
+  src: url('assets/fonts/DejaVuSansCondensed-Bold.eot');
+  src: url('assets/fonts/DejaVuSansCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/DejaVuSansCondensed-Bold.woff') format('woff'),
+  url('assets/fonts/DejaVuSansCondensed-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
