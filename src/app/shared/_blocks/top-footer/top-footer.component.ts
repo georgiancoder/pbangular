@@ -12,7 +12,7 @@ export class TopFooterComponent implements OnInit {
 
   getInfo(){
     this.sharedService.getInfo('ka').subscribe(resp=>{
-      console.log(resp);
+
     },err=>{
       console.log(err);
     })

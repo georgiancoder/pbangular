@@ -11,19 +11,27 @@ export class SharedService {
   constructor(public http: HttpClient) { }
 
   getHeaderMenu(lang: string):Observable<any>{
-    return this.http.get(`${this.url}/${lang}/headerMenu`);
+    return this.http.get(`${this.url}/${lang}/headerMenu`,{
+      observe: "response"
+    });
   }
 
   getMainMenu(lang: string):Observable<any>{
-    return this.http.get(`${this.url}/${lang}/mainMenu`);
+    return this.http.get(`${this.url}/${lang}/mainMenu`,{
+      observe: "response"
+    });
   }
 
   getSocial(lang: string):Observable<any>{
-    return this.http.get(``);
+    return this.http.get(``,{
+      observe: "response"
+    });
   }
 
   getInfo(lang: string):Observable<any>{
-    return this.http.get(`${this.url}/${lang}/contactInfo`);
+    return this.http.get(`${this.url}/${lang}/contactInfo`,{
+      observe: "response"
+    });
   }
 
 }
