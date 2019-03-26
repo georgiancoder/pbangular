@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {SharedService} from '../../shared.service';
+import {Observable} from 'rxjs/internal/Observable';
 
 @Component({
   selector: 'pb-header-menu',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderMenuComponent implements OnInit {
 
-  constructor() { }
+  headerMenu: Observable<any>;
+
+  constructor(public sharedService: SharedService) {
+  }
+
+  getHeaderMenu(){
+    this.headerMenu = this.sharedService.getHeaderMenu('ka');
+  }
 
   ngOnInit() {
+    this.getHeaderMenu();
   }
 
 }

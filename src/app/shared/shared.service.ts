@@ -11,9 +11,7 @@ export class SharedService {
   constructor(public http: HttpClient) { }
 
   getHeaderMenu(lang: string):Observable<any>{
-    return this.http.get(`${this.url}/${lang}/headerMenu`,{
-      observe: "response"
-    });
+    return this.http.get(`${this.url}/${lang}/headerMenu`);
   }
 
   getMainMenu(lang: string):Observable<any>{
