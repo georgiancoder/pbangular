@@ -7,6 +7,8 @@ import { NewsComponent } from './-blocks/news/news.component';
 import { SidebarComponent } from './-blocks/sidebar/sidebar.component';
 import { PbComponent } from './-blocks/pb/pb.component';
 import {CarouselModule} from 'ngx-owl-carousel-o';
+import { NewsItemComponent } from './-blocks/news-item/news-item.component';
+import { PbItemComponent } from './-blocks/pb-item/pb-item.component';
 
 @NgModule({
   imports: [
@@ -19,7 +21,9 @@ import {CarouselModule} from 'ngx-owl-carousel-o';
     MainSliderComponent,
     NewsComponent,
     SidebarComponent,
-    PbComponent
+    PbComponent,
+    NewsItemComponent,
+    PbItemComponent
   ]
 })
 export class HomeModule { }
