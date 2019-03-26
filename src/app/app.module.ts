@@ -13,12 +13,15 @@ import { MedInitiativeModule } from './med-initiative/med-initiative.module';
 import { BestPracticeModule } from './best-practice/best-practice.module';
 import { ResourcesModule } from './resources/resources.module';
 import { SinglePagesModule } from './single-pages/single-pages.module';
-import {RouterModule} from '@angular/router';
+import {RouterModule, Routes} from '@angular/router';
+
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,9 @@ import {RouterModule} from '@angular/router';
     MedInitiativeModule,
     BestPracticeModule,
     ResourcesModule,
-    SinglePagesModule
+    SinglePagesModule,
+    BrowserAnimationsModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,11 +6,13 @@ import { MainSliderComponent } from './-blocks/main-slider/main-slider.component
 import { NewsComponent } from './-blocks/news/news.component';
 import { SidebarComponent } from './-blocks/sidebar/sidebar.component';
 import { PbComponent } from './-blocks/pb/pb.component';
+import {CarouselModule} from 'ngx-owl-carousel-o';
 
 @NgModule({
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    CarouselModule
   ],
   declarations: [
     HomepageComponent,
