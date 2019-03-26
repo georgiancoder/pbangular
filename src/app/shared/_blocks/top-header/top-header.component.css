@@ -1,0 +1,149 @@
+div.t {
+  height: 50px;
+  background-color: #0d4f9f;
+}
+
+div.t div.wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 20px;
+}
+div.t div.wrapper div:first-child {
+  color: #FFFFFF;
+  font-size: 13px;
+}
+
+div.t div.wrapper div:last-child {
+
+  display: -webkit-box;
+
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+
+  display: flex;
+
+}
+
+div.t div.wrapper div:last-child form {
+
+  position: relative;
+
+  width: 334px;
+
+  height: 50px;
+
+}
+
+div.t div.wrapper div:last-child form input[type=text] {
+
+  height: 50px;
+
+  width: 100%;
+
+  background-color: #0d4992;
+
+  padding-left: 15px;
+
+  color: #FFF;
+
+}
+
+div.t div.wrapper div:last-child form input[type=submit] {
+
+  width: 50px;
+
+  height: 100%;
+
+  background-color: transparent;
+
+  background-image: url("../../../../assets/images/srch.png");
+
+  background-repeat: no-repeat;
+
+  background-position: center center;
+
+  position: absolute;
+
+  right: 0;
+
+  top: 0;
+
+}
+
+div.t div.wrapper div:last-child form input[type=text]::-webkit-input-placeholder {
+
+  color: #FFFFFF;
+
+  font-family: 'Roboto _GEO Mt';
+
+}
+
+div.t div.wrapper div:last-child form input[type=text]::-moz-placeholder {
+
+  color: #FFFFFF;
+
+  font-family: 'Roboto _GEO Mt';
+
+}
+
+div.t div.wrapper div:last-child form input[type=text]:-ms-input-placeholder {
+
+  color: #FFFFFF;
+
+  font-family: 'Roboto _GEO Mt';
+
+}
+
+div.t div.wrapper div:last-child form input[type=text]:-moz-placeholder {
+
+  color: #FFFFFF;
+
+  font-family: 'Roboto _GEO Mt';
+
+}
+
+div.t div.wrapper div:last-child ul {
+
+  height: 100%;
+
+}
+
+div.t div.wrapper div:last-child ul li {
+
+  color: #3a96f1;
+
+  font-size: 12px;
+
+  padding: 0 20px;
+
+  margin-right: -20px;
+
+  line-height: 50px;
+
+}
+
+div.t div.wrapper div:last-child ul li span{
+
+  transition: 0.3s;
+
+  cursor: pointer;
+
+}
+
+div.t div.wrapper div:last-child ul li:hover span{
+
+  color: #bfdfff;
+
+}
