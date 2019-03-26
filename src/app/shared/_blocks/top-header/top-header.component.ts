@@ -18,7 +18,7 @@ export class TopHeaderComponent implements OnInit, OnDestroy{
   }
 
   getInfo(){
-    this.subscribtions.push(this.sharedService.getInfo('ka').subscribe((resp: HttpResponse)=>{
+    this.subscribtions.push(this.sharedService.getInfo('ka').subscribe((resp: HttpResponse<any>)=>{
       if(resp.status == 200){
         this.contactInfo = resp.body;
       }
