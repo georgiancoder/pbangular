@@ -1,0 +1,175 @@
+a {
+
+  width: 370px;
+
+  height: 140px;
+
+  border-radius: 50px 0 0 0;
+
+  display: -webkit-box;
+
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+
+  -ms-flex-wrap: wrap;
+
+  flex-wrap: wrap;
+
+  -webkit-box-align: center;
+
+  -webkit-align-items: center;
+
+  -ms-flex-align: center;
+
+  align-items: center;
+
+  background-repeat: no-repeat;
+
+  padding-left: 30px;
+
+}
+
+
+a h3{
+
+  font-size: 24px;
+
+  color: #FFFFFF;
+
+  text-decoration: none;
+
+}
+
+div span{
+
+  font-size: 13px;
+
+  color: #FFFFFF;
+
+  font-style: italic;
+
+  text-decoration: underline;
+
+}
+
+a.miige {
+
+  background-color: #306cad;
+
+  background-image: url("../../../../assets/images/arrowdown.png");
+
+  background-size: 149px 120px;
+
+  background-position: right top;
+
+  -webkit-transition: background-size 0.3s linear;
+
+  -moz-transition: background-size 0.3s linear;
+
+  -o-transition: background-size 0.3s linear;
+
+  -ms-transition: background-size 0.3s linear;
+
+  transition: background-size 0.3s linear;
+
+}
+
+
+
+a.miige:hover {
+
+  background-size: 190px 160px;
+
+}
+
+a.miige img {
+
+  width: 119px;
+
+  height: 66px;
+
+  margin-right: 30px;
+
+}
+
+a.mieci {
+
+  background-color: #e83f6f;
+
+  background-image: url("../../../../assets/images/arrowup.png");
+
+  background-position: right bottom;
+
+  background-size: 149px 120px;
+
+  -webkit-transition: background-size 0.3s linear;
+
+  -moz-transition: background-size 0.3s linear;
+
+  -o-transition: background-size 0.3s linear;
+
+  -ms-transition: background-size 0.3s linear;
+
+  transition: background-size 0.3s linear;
+
+}
+
+a.mieci:hover{
+
+  background-size: 190px 160px;
+
+}
+
+a.mieci img {
+
+  width: 74px;
+
+  height: 88px;
+
+  margin-right: 30px;
+
+}
+
+a.how {
+
+  background-color: #ff9933;
+
+  background-image: url("../../../../assets/images/questionmark.png");
+
+  background-position: right top;
+
+  background-size: 111px 141px;
+
+  -webkit-transition: background-size 0.3s linear;
+
+  -moz-transition: background-size 0.3s linear;
+
+  -o-transition: background-size 0.3s linear;
+
+  -ms-transition: background-size 0.3s linear;
+
+  transition: background-size 0.3s linear;
+
+}
+
+a.how:hover{
+
+  background-size: 151px 181px;
+
+}
+
+a.how img {
+
+  width: 104px;
+
+  height: 66px;
+
+  margin-right: 30px;
+
+}
+
