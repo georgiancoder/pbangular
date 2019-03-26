@@ -11,10 +11,12 @@ import { MidFooterComponent } from './_blocks/mid-footer/mid-footer.component';
 import { CopyComponent } from './_blocks/copy/copy.component';
 import {ResponsiveMenuComponent} from './_blocks/responsive-menu/responsive-menu.component';
 import {SharedService} from './shared.service';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule
   ],
   declarations: [
     HeaderComponent,
