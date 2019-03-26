@@ -1,0 +1,31 @@
+{
+  "contactInfo": {
+    "address": {
+      "name": "Tbilisi, Delisi I st. 5a",
+      "mapUrl": "https://www.google.ge/maps/dir/41.7294718,44.7459041/Delisi/@41.7294035,44.7460682,19.28z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4044731af1c91591:0xab872b019aedaa11!2m2!1d44.7445089!2d41.7255358?hl=en"
+    },
+    "phone": "+995 32 239 90 19",
+    "fax": "+995 32 239 90 18",
+    "email": "office@csrdg.ge",
+    "website": "www.csrdg.ge"
+  },
+  "headerMenu": [
+    {
+      "name": "Resources",
+      "url": ""
+    },
+    {
+      "name": "Global Pro Bono Network",
+      "url": ""
+    },
+    {
+      "name": "Contact",
+      "url": ""
+    }
+  ],
+  "mainMenu": [
+    {
+      "name": "მთავარი"
+    }
+  ]
+}
