@@ -1,0 +1,172 @@
+div.slider {
+
+  height: 400px;
+
+  display: -webkit-box;
+
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+
+  display: flex;
+
+  overflow: hidden;
+
+}
+
+div.slider owl-carousel-o{
+  width: 100%;
+
+  height: 100%;
+}
+
+div.slider owl-carousel-o .owl-carousel.owl-theme {
+
+  width: 100% !important;
+
+  height: 100% !important;
+
+}
+
+div.slider .owl-controls {
+
+  display: none !important;
+
+}
+
+div.slider .center div.item {
+
+  position: relative;
+
+  width: 100%;
+
+  height: 100%;
+
+  opacity: 1;
+
+}
+
+div.slider div.item{
+
+
+  height: 400px;
+
+  width: 100%;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+}
+
+div.slider .owl-item.active .div.item{
+  opacity: 1;
+}
+
+div.slider div .center div.item:before {
+
+  content: "";
+
+  width: 100%;
+
+  height: 130px;
+
+  background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+
+  position: absolute;
+
+  bottom: 0px;
+
+  z-index: 2;
+
+  display: none;
+
+}
+
+div.slider div div.item img {
+
+  width: 100%;
+
+}
+
+div.slider div div.item a {
+
+  position: absolute;
+
+  bottom: 35px;
+
+  display: block;
+
+  text-align: center;
+
+  width: 100%;
+
+  color: #FFFFFF;
+
+  font-size: 20px;
+
+  z-index: 3;
+
+}
+
+
+.owl-nav{
+
+  margin-top: 0;
+
+  position: absolute;
+
+  top: 0;
+
+  height: 100%;
+
+  width: 100%;
+
+  left: 0;
+
+  display: flex;
+
+  display: -webkit-flex;
+
+  justify-content: space-between;
+
+  -webkit-justify-content: space-between;
+
+  align-items: center;
+
+  -webkit-align-items: center;
+
+}
+
+
+
+.owl-nav div{
+
+  font-size: 0!important;
+
+  width: 64px;
+
+  height: 64px;
+
+  background-color: transparent!important;
+
+  background-repeat: no-repeat!important;
+
+  background-size: contain  !important;
+
+}
+
+.owl-nav .owl-prev{
+
+  background-image: url('/../../../../assets/images/left-arrow (1).png') !important;
+
+}
+
+.owl-nav .owl-next{
+
+  background-image: url('/../../../../assets/images/right-arrow (1).png') !important;
+
+}
+
