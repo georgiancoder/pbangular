@@ -1,0 +1,135 @@
+div.m {
+
+  width: 100%;
+
+  height: 140px;
+
+  background-color: #eaeaea;
+
+}
+
+div.m div.wrapper {
+
+  height: 100%;
+
+  display: -webkit-box;
+
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+
+  display: flex;
+
+  -webkit-box-align: center;
+
+  -webkit-align-items: center;
+
+  -ms-flex-align: center;
+
+  align-items: center;
+
+  padding: 0 20px;
+
+  -webkit-box-pack: justify;
+
+  -webkit-justify-content: space-between;
+
+  -ms-flex-pack: justify;
+
+  justify-content: space-between;
+
+}
+
+div.m div.wrapper div:first-child {
+
+  display: -webkit-box;
+
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+
+  display: flex;
+
+  -webkit-box-align: center;
+
+  -webkit-align-items: center;
+
+  -ms-flex-align: center;
+
+  align-items: center;
+
+}
+
+div.m div.wrapper div:last-of-type img{
+
+  opacity: 0.5;
+
+}
+
+
+
+
+
+div.m div.wrapper div:last-of-type a:nth-of-type(1) img{
+
+  width: 91px;
+
+}
+
+
+
+div.m div.wrapper div:last-of-type a:nth-of-type(2) img{
+
+  width: 153px;
+
+}
+
+
+
+div.m div.wrapper div:last-of-type a:nth-of-type(3) img{
+
+  width: 260px;
+
+}
+
+
+
+div.m div.wrapper div:last-child img:hover{
+
+  opacity: 1;
+
+}
+
+div.m div.wrapper div:first-child p {
+
+  margin-left: 10px;
+
+  font-size: 13px;
+
+  color: #666666;
+
+  width: 350px;
+
+}
+
+div.m div.wrapper div:last-child h2 {
+
+  font-size: 13px;
+
+  color: #666666;
+
+  margin-bottom: 15px;
+
+}
+
+div.m div.wrapper div:last-child a {
+
+  margin-right: 60px;
+
+}
+
+div.m div.wrapper div:last-child a:last-child{
+
+  margin-right: 0;
+
+}

@@ -1,0 +1,131 @@
+div.t {
+
+  width: 100%;
+
+  height: 100px;
+
+  background-color: #1d64ba;
+
+  margin-top: 40px;
+
+  position: relative;
+
+}
+
+div.t:before {
+
+  content: "";
+
+  width: 100%;
+
+  height: 20px;
+
+  background-color: #0d4f9f;
+
+  position: absolute;
+
+  top: -20px;
+
+  left: 0;
+
+}
+
+div.t div.wrapper {
+
+  height: 100%;
+
+  display: -webkit-box;
+
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+
+  display: flex;
+
+  -webkit-box-pack: justify;
+
+  -webkit-justify-content: space-between;
+
+  -ms-flex-pack: justify;
+
+  justify-content: space-between;
+
+  padding: 0 20px;
+
+  -webkit-box-align: center;
+
+  -webkit-align-items: center;
+
+  -ms-flex-align: center;
+
+  align-items: center;
+
+}
+
+div.t div.wrapper > div {
+
+  background-repeat: no-repeat;
+
+  font-size: 15px;
+
+  color: #FFFFFF;
+
+  display: flex;
+
+  display: -webkit-flex;
+
+  flex-direction: column;
+
+  -webkit-flex-direction: column;
+
+  justify-content: space-between;
+
+  -webkit-justify-content: space-between;
+
+}
+
+div.t div.wrapper div.mis {
+
+  padding-left: 46px;
+
+  min-height: 44px;
+
+  background-image: url("../../../../assets/images/marker.png");
+
+}
+
+div.t div.wrapper div.tell {
+
+  padding-left: 49px;
+
+  min-height: 44px;
+
+  background-image: url("../../../../assets/images/tell.png");
+
+}
+
+div.t div.wrapper div.mail {
+
+  padding-left: 54px;
+
+  min-height: 43px;
+
+  background-image: url("../../../../assets/images/ee.png");
+
+}
+
+
+
+div.t div.wrapper div.mail a,div.t div.wrapper div.mis a{
+
+  color: #FFF;
+
+  transition: 0.3s;
+
+}
+
+div.t div.wrapper div.mail a:hover,div.t div.wrapper div.mis a:hover{
+
+  text-decoration: underline;
+
+}

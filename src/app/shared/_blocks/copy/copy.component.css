@@ -1,0 +1,33 @@
+div.b {
+
+  height: 45px;
+
+  width: 100%;
+
+  background-color: #0d4f9f;
+
+}
+
+div.b div.wrapper h4 {
+
+  text-align: center;
+
+  font-size: 13px;
+
+  color: #FFFFFF;
+
+  display: flex;
+
+  display: -webkit-flex;
+
+  justify-content: center;
+
+  -webkit-justify-content: center;
+
+  align-items: center;
+
+  -webkit-align-items: center;
+
+  height: 45px;
+
+}
