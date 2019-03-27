@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'pb-pb-item',
@@ -6,8 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pb-item.component.css']
 })
 export class PbItemComponent implements OnInit {
+  @Input() item;
 
-  constructor() { }
+  @Input() index;
+
+  clasList: string[] = ["miige","mieci","how"];
+  constructor() {
+
+  }
 
   ngOnInit() {
   }

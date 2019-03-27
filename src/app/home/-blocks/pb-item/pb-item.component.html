@@ -1,7 +1,7 @@
-<a href="/ka/38/" class="miige">
-  <img src="/inc_files/images/miige.png" alt="">
+<a href="/ka/38/" [class]="clasList[index]">
+  <img src="{{item.img}}" alt="">
   <div>
-    <h3>მიიღე<br> პრო ბონო</h3>
-    <span>გაიგე მეტი</span>
+    <h3 [innerHTML]="item.title"></h3>
+    <span>{{item.moreText}}</span>
   </div>
 </a>

@@ -179,6 +179,25 @@
       "img": "http://localhost:3000/news/thumb.jpg",
       "id": "12"
     }
+  ],
+  "banners": [
+    {
+      "id": "1",
+      "title": "მიიღე პრო<br> ბონო",
+      "img": "http://localhost:3000/miige.png",
+      "moreText": "გაიგე მეტი"
+    },
+    {
+      "id": "2",
+      "title": "გაეცი<br> პრო ბონო",
+      "img": "http://localhost:3000/mieci.png",
+      "moreText": "გაიგე მეტი"
+    },
+    {
+      "id": "3",
+      "title": "არ იცით <br> როგორ?",
+      "img": "http://localhost:3000/how.png",
+      "moreText": "დაგვიკავშირდით"
+    }
   ]
-
 }

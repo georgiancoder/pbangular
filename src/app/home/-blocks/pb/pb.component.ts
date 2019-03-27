@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {HomepageService} from '../../homepage.service';
+import {Observable} from 'rxjs/internal/Observable';
 
 @Component({
   selector: 'pb-pb',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PbComponent implements OnInit {
 
-  constructor() { }
+  items: Observable<any>;
+
+  constructor(public homepageService: HomepageService) {
+  }
+
+  getBanners(){
+    this.items = this.homepageService.getBanners('ka');
+  }
 
   ngOnInit() {
+    this.getBanners();
   }
 
 }

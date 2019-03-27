@@ -1,5 +1,5 @@
 <div class="pb">
-  <pb-pb-item></pb-pb-item>
-  <pb-pb-item></pb-pb-item>
-  <pb-pb-item></pb-pb-item>
+  <pb-pb-item *ngFor="let item of (items | async); let i = index;" [item]="item" [index]="i"></pb-pb-item>
 </div>
+
+

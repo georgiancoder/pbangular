@@ -14,4 +14,8 @@ export class HomepageService {
     return this.http.get(`${this.url}/${lang}/mainSlider`);
   }
 
+  getBanners(lang: string):Observable<any>{
+    return this.http.get(`${this.url}/${lang}/banners`);
+  }
+
 }
