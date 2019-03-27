@@ -1,8 +1,12 @@
 const jsonServer = require('json-server')
+var path = require('path')
+var express = require('express')
 const server = jsonServer.create()
 const routerka = jsonServer.router('db.ka.json')
 const routeren = jsonServer.router('db.en.json')
 const middlewares = jsonServer.defaults()
+
+server.use('/static', express.static(path.join(__dirname, 'public')))
 
 server.use(middlewares)
 server.use((req,res,next)=>{

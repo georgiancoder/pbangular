@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {SharedService} from '../../shared.service';
 
 @Component({
   selector: 'pb-mid-footer',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MidFooterComponent implements OnInit {
 
-  constructor() { }
+  financialSuport;
+
+  constructor(public sharedService: SharedService) { }
+
+  getFinancialSuport(){
+    this.financialSuport = this.sharedService.getFinancialSuport('ka');
+  }
 
   ngOnInit() {
+    this.getFinancialSuport();
   }
 
 }

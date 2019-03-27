@@ -15,9 +15,7 @@ export class SharedService {
   }
 
   getMainMenu(lang: string):Observable<any>{
-    return this.http.get(`${this.url}/${lang}/mainMenu`,{
-      observe: "response"
-    });
+    return this.http.get(`${this.url}/${lang}/mainMenu`);
   }
 
   getSocial(lang: string):Observable<any>{
@@ -30,6 +28,10 @@ export class SharedService {
     return this.http.get(`${this.url}/${lang}/contactInfo`,{
       observe: "response"
     });
+  }
+
+  getFinancialSuport(lang: string):Observable<any>{
+    return this.http.get(`${this.url}/${lang}/financialSuport`);
   }
 
 }

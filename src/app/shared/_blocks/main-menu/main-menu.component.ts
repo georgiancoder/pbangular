@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {SharedService} from '../../shared.service';
 
 @Component({
   selector: 'pb-main-menu',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainMenuComponent implements OnInit {
 
-  constructor() { }
+  mainMenu;
+
+  constructor(public sharedService: SharedService) { }
+
+  getMainMenu(){
+    this.mainMenu = this.sharedService.getMainMenu('ka');
+  }
 
   ngOnInit() {
+    this.getMainMenu();
   }
 
 }

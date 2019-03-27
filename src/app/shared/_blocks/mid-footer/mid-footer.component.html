@@ -1,14 +1,12 @@
 <div class="m">
   <div class="wrapper">
     <div>
-      <a href="http://csrdg.ge/kontaqti/" target="_blank" class="flogo"><img src="/images/logo.png" alt=""></a>
+      <a href="http://csrdg.ge/kontaqti/" target="_blank" class="flogo"><img src="../../../../assets/images/logo12.png" alt=""></a>
       <p>ვებგვერდი ეკუთვნის "საქართველოს <br> სტრატეგიული კვლევებისა და <br> განვითარების ცენტრს"</p>
     </div>
     <div>
       <h2>ფინანსური მხარდაჭერა</h2>
-      <a href="http://www.mitost.org/en.html" target="_blank"><img src="/inc_files/images/mitost.png" alt=""></a>
-      <a href="http://www.bmw-stiftung.de/en" target="_blank"><img src="/inc_files/images/bmw.png" alt=""></a>
-      <a href="http://www.bosch-stiftung.de/content/language2/html/index.asp" target="_blank"><img src="/inc_files/images/bosch.png" alt=""></a>
+      <a *ngFor="let item of financialSuport | async" href="{{item.url}}" target="_blank"><img src="{{item.img}}" alt=""></a>
     </div>
   </div>
 </div>

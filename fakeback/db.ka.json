@@ -58,5 +58,19 @@
       "name": "საკითხები და მოდელები",
       "pageId": "7"
     }
+  ],
+  "financialSuport": [
+    {
+      "img": "http://localhost:3000/mitost.png",
+      "url": "http://probonogeorgia.ge/inc_files/images/mitost.png"
+    },
+    {
+      "img": "http://localhost:3000/bmw.png",
+      "url": "http://probonogeorgia.ge/inc_files/images/mitost.png"
+    },
+    {
+      "img": "http://localhost:3000/bosch (1).png",
+      "url": "http://probonogeorgia.ge/inc_files/images/mitost.png"
+    }
   ]
 }
