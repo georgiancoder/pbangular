@@ -9,6 +9,7 @@ import { PbComponent } from './-blocks/pb/pb.component';
 import {CarouselModule} from 'ngx-owl-carousel-o';
 import { NewsItemComponent } from './-blocks/news-item/news-item.component';
 import { PbItemComponent } from './-blocks/pb-item/pb-item.component';
+import {HomepageService} from './homepage.service';
 
 @NgModule({
   imports: [
@@ -24,6 +25,9 @@ import { PbItemComponent } from './-blocks/pb-item/pb-item.component';
     PbComponent,
     NewsItemComponent,
     PbItemComponent
+  ],
+  providers: [
+    HomepageService
   ]
 })
 export class HomeModule { }

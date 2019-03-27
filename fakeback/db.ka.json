@@ -72,5 +72,15 @@
       "img": "http://localhost:3000/bosch (1).png",
       "url": "http://probonogeorgia.ge/inc_files/images/mitost.png"
     }
+  ],
+  "mainSlider":  [
+    "http://localhost:3000/maingalery/1.png",
+    "http://localhost:3000/maingalery/2.png",
+    "http://localhost:3000/maingalery/3.png",
+    "http://localhost:3000/maingalery/4.png",
+    "http://localhost:3000/maingalery/5.png",
+    "http://localhost:3000/maingalery/6.png",
+    "http://localhost:3000/maingalery/7.png"
   ]
+
 }

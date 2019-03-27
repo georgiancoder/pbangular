@@ -1,4 +1,6 @@
 import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {Observable} from 'rxjs/internal/Observable';
+import {HomepageService} from '../../homepage.service';
 
 
 @Component({
@@ -21,9 +23,16 @@ export class MainSliderComponent implements OnInit {
     navContainer: false
   };
 
-  constructor() { }
+  slides: Observable<string[]>;
+
+  constructor(public homepageService: HomepageService) { }
+
+  getSlides(){
+    this.slides = this.homepageService.getMainSlider('ka');
+  }
 
   ngOnInit() {
+    this.getSlides();
   }
 
 }
