@@ -12,11 +12,13 @@ import { CopyComponent } from './_blocks/copy/copy.component';
 import {ResponsiveMenuComponent} from './_blocks/responsive-menu/responsive-menu.component';
 import {SharedService} from './shared.service';
 import {HttpClientModule} from '@angular/common/http';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   imports: [
     CommonModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule
   ],
   declarations: [
     HeaderComponent,
