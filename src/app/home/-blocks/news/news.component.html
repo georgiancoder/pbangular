@@ -1,7 +1,5 @@
 <div class="n">
   <div class="h">
   </div>
-  <pb-news-item></pb-news-item>
-  <pb-news-item></pb-news-item>
-  <pb-news-item></pb-news-item>
+  <pb-news-item *ngFor="let n of news | async" [news]="n"></pb-news-item>
 </div>

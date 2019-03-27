@@ -16,6 +16,7 @@ import { SinglePagesModule } from './single-pages/single-pages.module';
 import {RouterModule, Routes} from '@angular/router';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { NewsModule } from './news/news.module';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     ResourcesModule,
     SinglePagesModule,
     BrowserAnimationsModule,
-    RouterModule
+    RouterModule,
+    NewsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
