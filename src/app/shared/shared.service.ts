@@ -15,7 +15,9 @@ export class SharedService {
   }
 
   getMainMenu(lang: string):Observable<any>{
-    return this.http.get(`${this.url}/${lang}/mainMenu`);
+    return this.http.get(`${this.url}/${lang}/mainMenu`,{
+      observe: "response"
+    });
   }
 
   getSocial(lang: string):Observable<any>{
