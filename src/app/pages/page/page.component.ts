@@ -12,12 +12,18 @@ import {Subscription} from 'rxjs/internal/Subscription';
 export class PageComponent implements OnInit, OnDestroy {
   subscribtions: Subscription[] = [];
   pageId;
-  pageMenu: Observable<any>;
+  pageMenu = [];
 
   constructor(public pagesService: PagesService, public activeRoute: ActivatedRoute) { }
 
   getSidebarMenu(){
-    this.pageMenu = this.pagesService.getPageSidebarMenu('ka', this.pageId);
+    this.subscribtions.push(this.pagesService.getPageSidebarMenu('ka', this.pageId).subscribe(resp=>{
+      if(resp.status == 200){
+        this.pageMenu = resp.body[0].menu;
+      }
+    },err=>{
+      console.log(err);
+    }));
   }
 
   ngOnInit() {

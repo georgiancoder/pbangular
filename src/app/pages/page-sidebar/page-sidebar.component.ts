@@ -8,7 +8,10 @@ import {Component, Input, OnInit} from '@angular/core';
 export class PageSidebarComponent implements OnInit {
 
   @Input() menu;
+  @Input() currentPageId;
 
+
+  d = new Date();
   constructor() { }
 
   ngOnInit() {

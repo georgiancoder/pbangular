@@ -1,4 +1,5 @@
 <aside class="left">
   <ul>
-    <li class="active"><a href="/ka/25">რას ნიშნავს პრო ბონო</a></li><li><a href="/ka/26">CSR და პრო ბონო</a></li><li><a href="/ka/28">პრო ბონო მიმწოდებლები და ბენეფიციარები</a></li><li><a href="/ka/29">სარგებელი კომპანიებს </a></li><li><a href="/ka/30">სოციალური სარგებელი</a></li><li><a href="/ka/27">ისტორია და კონტექსტი</a></li>                        </ul>
+    <li *ngFor="let item of menu" [class.active]="currentPageId == item.pageId"><a [routerLink]="['/pages',item.pageId]">{{item.name}}</a></li>
+  </ul>
 </aside>

@@ -8,13 +8,15 @@ import { ContactComponent } from './contact/contact.component';
 import { PageCoverComponent } from './page-cover/page-cover.component';
 import { PageSidebarComponent } from './page-sidebar/page-sidebar.component';
 import { PageContentComponent } from './page-content/page-content.component';
+import { RouterModule} from '@angular/router';
 
 @NgModule({
   declarations: [PageComponent, ContactComponent, PageCoverComponent, PageSidebarComponent, PageContentComponent],
   imports: [
     CommonModule,
     HttpClientModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    RouterModule
   ],
   providers: [
     PagesService
