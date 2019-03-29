@@ -17,7 +17,7 @@ export class PagesService {
   }
 
   getPageSidebarMenu(lang: string, pageId: string):Observable<any>{
-    return this.http.get(`${this.url}/${lang}/mainMenu`);
+    return this.http.get(`${this.url}/${lang}/getMenuByPageId?pageId=${pageId}`);
   }
 
 }
