@@ -1,15 +1,15 @@
 <div class="t">
   <div class="wrapper">
     <div class="mis">
-      <span>მისამართი</span>
-      <span><a href="{{info?.address.mapUrl}}" target="_blank">ქ. თბილისი, დელისის I შესახვევი 5ა</a></span>
+      <span i18n>მისამართი</span>
+      <span><a href="{{info?.address.mapUrl}}" target="_blank" i18n>ქ. თბილისი, დელისის I შესახვევი 5ა</a></span>
     </div>
     <div class="tell">
-      <span>ტელეფონი/ფაქსი</span>
+      <span i18n>ტელეფონი/ფაქსი</span>
       <span>{{info?.phone}} / {{info?.fax}}</span>
     </div>
     <div class="mail">
-      <span>ელ-ფოსტა/ვებ-გვერდი</span>
+      <span i18n>ელ-ფოსტა/ვებ-გვერდი</span>
       <span><a href="{{'mailto:' + info?.email}}" target="_top">{{info?.email}}</a> / <a href="{{info?.website}}" target="_blank">{{info?.website}}</a></span>
     </div>
   </div>

@@ -29,6 +29,14 @@
             "scripts": []
           },
           "configurations": {
+            "en": {
+              "aot": true,
+              "outputPath": "dist/my-project-en/",
+              "i18nFile": "src/locale/messages.en.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
+            },
             "production": {
               "optimization": true,
               "outputHashing": "all",
@@ -56,6 +64,9 @@
           "configurations": {
             "production": {
               "browserTarget": "pb:build:production"
+            },
+            "en": {
+              "browserTarget": "pb:build:en"
             }
           }
         },

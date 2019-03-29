@@ -2,7 +2,7 @@
   <div class="wrapper">
     <nav>
       <ul class="headerMenu">
-        <li><a [routerLink]="['/home']">მთავარი</a></li>
+        <li><a [routerLink]="['/home']" i18n>მთავარი</a></li>
         <li *ngFor="let item of mainMenu"><a [routerLink]="['/pages',item.pageId]">{{item.name}}</a>
           <ul *ngIf="item.children?.length > 0">
             <li *ngFor="let submenu of item.children"><a [routerLink]="['/pages',submenu.pageId]">{{submenu.name}}</a></li>

@@ -1,7 +1,7 @@
 <div class="t">
   <div class="wrapper">
     <div *ngIf="contactInfo">
-      დაგვიკავშირდით: {{contactInfo.phone}}
+      <ng-container i18n>დაგვიკავშირდით:</ng-container> {{contactInfo.phone}}
     </div>
     <div>
       <div class="soc">
@@ -10,11 +10,11 @@
         <a target="_blank" href="https://www.linkedin.com/organization/13289733/admin/updates" class="in"></a>
       </div>
       <form action="/act/search/">
-        <input type="text" name="kw" value="" placeholder="საიტზე ძებნა">
+        <input type="text" name="kw" value="" i18n-placeholder placeholder="საიტზე ძებნა">
         <input type="submit" value="">
       </form>
       <ul>
-        <li>ენა: <span onclick="changelang('en')">EN</span></li>            </ul>
+        <li><ng-container>ენა:</ng-container> <span onclick="changelang('en')">EN</span></li>            </ul>
     </div>
   </div>
 </div>

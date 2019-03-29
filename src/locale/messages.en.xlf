@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ba206e61254f1fc055b84d89832e43ad960b3db3" datatype="html">
+        <source>დაგვიკავშირდით:</source>
+        <target>Contact us:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/_blocks/top-header/top-header.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5e110034bd629baa6fc4e9773d1ce81772b43bdb" datatype="html">
+        <source>საიტზე ძებნა</source>
+        <target>Search</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/_blocks/top-header/top-header.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0cfc556dc1fb5f908fcf64c2ac66d2cad5716679" datatype="html">
+        <source>პრო ბონო <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>საქართველო<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Pro Bono <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Georgia<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/_blocks/mid-header/mid-header.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8b92e31e913cb857a5676ac66bb3b15d32e3e9d8" datatype="html">
+        <source>მთავარი</source>
+        <target>Home</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/_blocks/main-menu/main-menu.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="29b20d0b9bbc0c36ed85a3756ea6bdf02c387022" datatype="html">
+        <source>მისამართი</source>
+        <target>Address</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/_blocks/top-footer/top-footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e3620fc3881b9b51dfb5f322179cad26d1658db8" datatype="html">
+        <source>ქ. თბილისი, დელისის I შესახვევი 5ა</source>
+        <target>Tbilisi, Delisi I st. 5a</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/_blocks/top-footer/top-footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="072134d1c56c2ec924bbbfe531f713cffb1e87ba" datatype="html">
+        <source>ტელეფონი/ფაქსი</source>
+        <target>Telephone/Fax</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/_blocks/top-footer/top-footer.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1779fee54d951cec89524d6880ed652a6b7fde5b" datatype="html">
+        <source>ელ-ფოსტა/ვებ-გვერდი</source>
+        <target>E-mail/Web-page</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/_blocks/top-footer/top-footer.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9a142e39f2fd45b7bc78f5e467508641c61e94a7" datatype="html">
+        <source>ვებგვერდი ეკუთვნის &quot;საქართველოს <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> სტრატეგიული კვლევებისა და <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> განვითარების ცენტრს&quot;</source>
+        <target>The webpage belongs to The Centre for Strategic Research and Development of Georgia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/_blocks/mid-footer/mid-footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="94de77c33867ad0db035c2456ae0290dbca7ee19" datatype="html">
+        <source>ფინანსური მხარდაჭერა</source>
+        <target>SUPPORTERS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/_blocks/mid-footer/mid-footer.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="47aaea956c7562e85f38e44f9d08c735cd8d8b00" datatype="html">
+        <source>საქართველოს სტრატეგიული კვლევების და განვითარების ცენტრი © ყველა უფლება დაცულია. 2019</source>
+        <target>The Centre for Strategic Research and Development of Georgia © All rights reserved. 2019</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/_blocks/copy/copy.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
