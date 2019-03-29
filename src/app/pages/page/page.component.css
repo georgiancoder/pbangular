@@ -1,0 +1,25 @@
+.innerpage .wrapper{
+
+  padding: 20px;
+
+}
+
+.content{
+
+  margin-top: 20px;
+
+  display: flex;
+
+  display: -webkit-flex;
+
+  flex-wrap: wrap;
+
+  -webkit-flex-wrap: wrap;
+
+}
+
+.content .cont{
+
+  width: calc(100% - 235px);
+
+}

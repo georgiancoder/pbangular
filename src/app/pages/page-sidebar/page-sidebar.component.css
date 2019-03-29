@@ -1,0 +1,33 @@
+aside.left{
+
+  width: 235px;
+
+}
+
+
+
+aside.left ul li{
+
+  margin-bottom: 20px;
+
+  width: 190px;
+
+}
+
+
+
+aside.left ul li a{
+
+  font-size: 14px;
+
+  color: #999999;
+
+}
+
+
+
+aside.left ul li.active a{
+
+  color: #0d4f9f;
+
+}

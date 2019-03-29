@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'pb-page-sidebar',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page-sidebar.component.css']
 })
 export class PageSidebarComponent implements OnInit {
+
+  @Input() menu;
 
   constructor() { }
 

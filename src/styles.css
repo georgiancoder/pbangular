@@ -98,6 +98,37 @@ a{
 }
 
 
+h3.title{
+
+  font-size: 15px;
+
+  color: #727272;
+
+  border-bottom: 1px solid #c2c2c2;
+
+  padding-bottom: 10px;
+
+  /*text-transform: uppercase;*/
+
+}
+
+h3.title a {
+
+  font-size: 15px;
+
+  color: #727272;
+
+  padding-bottom: 10px;
+
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+h3.title a:hover{
+  color: #267ac0;
+}
+
+
 @font-face {
   font-family: 'BPG Arial';
   src: url('assets/fonts/BPGArial.eot');
