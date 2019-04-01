@@ -1,7 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, BrowserTransferStateModule } from '@angular/platform-browser';
 import {LOCALE_ID, NgModule} from '@angular/core';
 
-import { registerLocaleData, CommonModule } from '@angular/common';
+import { registerLocaleData } from '@angular/common';
 import localeKa from '@angular/common/locales/ka';
 
 registerLocaleData(localeKa, 'ka');
@@ -14,28 +14,20 @@ import {RouterModule} from '@angular/router';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NewsModule } from './news/news.module';
-import { TransferHttpCacheModule } from '@nguniversal/common';
-import { HttpClientModule } from '@angular/common/http';
-import { NgtUniversalModule } from '@ng-toolkit/universal';
+import { AppModule } from './app.module';
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-
-  ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    
     SharedModule,
     AppRoutingModule,
     ResourcesModule,
     BrowserAnimationsModule,
     RouterModule,
     NewsModule,
-    CommonModule,
-    TransferHttpCacheModule,
-    HttpClientModule,
-    NgtUniversalModule
+    AppModule,
+    BrowserTransferStateModule
   ],
   providers: [
     {
@@ -44,4 +36,4 @@ import { NgtUniversalModule } from '@ng-toolkit/universal';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppBrowserModule { }
